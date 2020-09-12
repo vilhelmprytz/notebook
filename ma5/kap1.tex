@@ -1,0 +1,46 @@
+\documentclass{article} 
+
+\usepackage{exercise}
+\usepackage{amsmath}
+
+\usepackage[utf8]{inputenc}
+\usepackage[swedish]{babel}
+
+\title{Matematik 5 - Matematik 5000, kapitel 1}
+\author{Vilhelm Prytz}
+\date{September 2020}
+
+\begin{document}
+\maketitle
+
+\setcounter{Exercise}{1195}
+\begin{Exercise}
+
+    \[
+        \binom{12}{4} = \binom{11}{4} + \binom{11}{3}
+    \]
+
+    \( \binom{12}{4} \) betyder antalet sätt att välja 4 månader av 12.
+
+    Vi bestämmer att en månad av de månader som ska ingå blande de 4 "låses fast". T.ex. låses juli fast.
+
+    Antalet sätt att kombinera de 4 månader blir då \(1 \cdot \binom{11}{3}\) (eftersom en av månaderna nu är fastlåst).
+
+    Om juli inte ingår, så ska jag bestämma antal sätt att välja 4 bland 11.
+
+    Båda fallen kompletterar varandra. Alltså blir \( \binom{12}{4} = \binom{11}{4} + \binom{11}{3} \).
+
+\end{Exercise}
+
+\begin{Exercise}
+
+    Visa att
+
+    \[
+        \binom{k}{k} + \binom{k+1}{k} + ... + \binom{n}{k} = \binom{n+1}{k+1}
+    \]
+
+\end{Exercise}
+
+
+\end{document}
