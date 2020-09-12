@@ -1,3 +1,3 @@
-# vilhelmprytz/math
+# vilhelmprytz/notebook
 
 Math exercises.
