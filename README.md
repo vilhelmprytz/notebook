@@ -1,3 +1,3 @@
 # vilhelmprytz/notebook
 
-Math exercises.
+Jupyter Notebook files and projects.
